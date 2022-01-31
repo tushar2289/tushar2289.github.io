@@ -314,7 +314,7 @@ LANGUAGES
 /*******************************************
 HOBBIES
 *******************************************/
-.hobby{
+.hobby, .tech_skill{
   color: #fff;
   display: inline-block;
   margin-right: 5px;
@@ -323,6 +323,9 @@ HOBBIES
   background: #A75265;
   position: relative;
   font-size: 1.2em;
+}
+.tech_skill{
+  padding: 5px;
 }
 .hobby:before{
   content: "\f004";
